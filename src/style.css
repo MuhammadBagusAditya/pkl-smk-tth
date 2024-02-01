@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.container {
+		@apply w-[90%] sm:w-[85%] mx-auto;
+	}
+}
